@@ -19,8 +19,8 @@ Param(
 
 #Set variables
 $ErrorActionPreference = "SilentlyContinue"
-$SiteCode = "CCI"
-$SiteServer = "CCICUSSCCM1.us.crowncastle.com"
+$SiteCode = "<SITECODE>"
+$SiteServer = "<SITESERVER>"
 $CurrentPath = (Get-Location).Path
 
 #Import SCCM cmdlet
